@@ -131,7 +131,7 @@ export function Hero() {
             <div className="organic-blob aspect-square overflow-hidden shadow-2xl relative z-10 ring-8 ring-white/20">
               <img 
                   src: `${import.meta.env.BASE_URL}6.jpg`, alt: 'Heilkräuter' 
-                alt="Naturheilpraxis Atmosphäre" 
+                alt="Heilkräuter" 
                 className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
                 referrerPolicy="no-referrer"
               />
