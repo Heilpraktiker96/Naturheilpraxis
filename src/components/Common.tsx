@@ -155,10 +155,10 @@ export function About() {
             <div className="relative z-10">
               <div className="organic-blob aspect-[3/4] overflow-hidden shadow-2xl scale-x-[-1]">
                  <img 
-                  src: `${import.meta.env.BASE_URL}2.jpg`, alt: 'Kristalle & Heilung' 
-                  alt="Heilpraktikerin Escalera" 
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
+  src={`${import.meta.env.BASE_URL}2.jpg`} 
+  alt="Heilpraktikerin Escalera" 
+  className="w-full h-full object-cover"
+  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="absolute -left-8 bottom-8 bg-warm-cream p-6 rounded-2xl shadow-xl hidden md:block max-w-[220px] border border-nature-sage/10">
