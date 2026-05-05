@@ -130,7 +130,7 @@ export function Hero() {
           >
             <div className="organic-blob aspect-square overflow-hidden shadow-2xl relative z-10 ring-8 ring-white/20">
               <img 
-                  { src: `${import.meta.env.BASE_URL}6.jpg`, alt: 'Heilkräuter' } 
+                  src: `${import.meta.env.BASE_URL}6.jpg`, alt: 'Heilkräuter' 
                 alt="Naturheilpraxis Atmosphäre" 
                 className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
                 referrerPolicy="no-referrer"
@@ -155,7 +155,7 @@ export function About() {
             <div className="relative z-10">
               <div className="organic-blob aspect-[3/4] overflow-hidden shadow-2xl scale-x-[-1]">
                  <img 
-                  { src: `${import.meta.env.BASE_URL}2.jpg`, alt: 'Kristalle & Heilung' }
+                  src: `${import.meta.env.BASE_URL}2.jpg`, alt: 'Kristalle & Heilung' 
                   alt="Heilpraktikerin Escalera" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
