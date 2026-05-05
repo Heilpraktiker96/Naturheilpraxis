@@ -275,13 +275,16 @@ export function Services() {
 
 export function Gallery() {
   const images = [
-    { src: '3.jpg', alt: 'Kristalle & Heilung' },
-    { src: '4.jpg', alt: 'Naturmittel' },
-    { src: '5.jpg', alt: 'Zen Atmosphäre' },
-    { src: '6.jpg', alt: 'Heilkräuter' },
-    { src: '7.jpg', alt: 'Meditation' },
-    { src: '8.jpg', alt: 'Energiearbeit' },
+    { src: `${import.meta.env.BASE_URL}3.jpg`, alt: 'Kristalle & Heilung' },
+    { src: `${import.meta.env.BASE_URL}4.jpg`, alt: 'Naturmittel' },
+    { src: `${import.meta.env.BASE_URL}5.jpg`, alt: 'Zen Atmosphäre' },
+    { src: `${import.meta.env.BASE_URL}6.jpg`, alt: 'Heilkräuter' },
+    { src: `${import.meta.env.BASE_URL}7.jpg`, alt: 'Meditation' },
+    { src: `${import.meta.env.BASE_URL}8.jpg`, alt: 'Energiearbeit' },
   ];
+
+  // ... restliche Funktion (return etc.)
+
 
   return (
     <section id="galerie" className="py-24 mb-32 lg:py-40 relative bg-earth-stone overflow-hidden">
