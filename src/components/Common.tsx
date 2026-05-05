@@ -275,12 +275,12 @@ export function Services() {
 
 export function Gallery() {
   const images = [
-    { src: '/3.jpg', alt: 'Kristalle & Heilung' },
-    { src: '/4.jpg', alt: 'Naturmittel' },
-    { src: '/5.jpg', alt: 'Zen Atmosphäre' },
-    { src: '/6.jpg', alt: 'Heilkräuter' },
-    { src: '/7.jpg', alt: 'Meditation' },
-    { src: '/8.jpg', alt: 'Energiearbeit' },
+    { src: '3.jpg', alt: 'Kristalle & Heilung' },
+    { src: '4.jpg', alt: 'Naturmittel' },
+    { src: '5.jpg', alt: 'Zen Atmosphäre' },
+    { src: '6.jpg', alt: 'Heilkräuter' },
+    { src: '7.jpg', alt: 'Meditation' },
+    { src: '8.jpg', alt: 'Energiearbeit' },
   ];
 
   return (
