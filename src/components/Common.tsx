@@ -86,7 +86,7 @@ export function Navigation() {
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-40 overflow-hidden">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-40 overflow-hidden bg-transparent">
       <div className="absolute inset-0 grain-bg"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -130,10 +130,10 @@ export function Hero() {
           >
             <div className="organic-blob aspect-square overflow-hidden shadow-2xl relative z-10 ring-8 ring-white/20">
               <img 
-  src={`${import.meta.env.BASE_URL}6.jpg`} 
-  alt="Heilkräuter" 
-  className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
-  referrerPolicy="no-referrer"
+                src="/6.jpg" 
+                alt="Naturheilpraxis Atmosphäre" 
+                className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
+                referrerPolicy="no-referrer"
               />
             </div>
             {/* Decorative Blobs */}
@@ -148,17 +148,17 @@ export function Hero() {
 
 export function About() {
   return (
-    <section id="über-mich" className="py-20 lg:py-32 relative bg-nature-sage-light/20">
+    <section id="über-mich" className="py-20 lg:py-32 relative bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <motion.div {...fadeIn} transition={{ delay: 0.2 }} className="order-2 lg:order-1 relative">
             <div className="relative z-10">
               <div className="organic-blob aspect-[3/4] overflow-hidden shadow-2xl scale-x-[-1]">
                  <img 
-  src={`${import.meta.env.BASE_URL}2.jpg`} 
-  alt="Heilpraktikerin Escalera" 
-  className="w-full h-full object-cover"
-  referrerPolicy="no-referrer"
+                  src="/2.jpg" 
+                  alt="Heilpraktikerin Escalera" 
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="absolute -left-8 bottom-8 bg-warm-cream p-6 rounded-2xl shadow-xl hidden md:block max-w-[220px] border border-nature-sage/10">
@@ -239,7 +239,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="leistungen" className="py-20 lg:py-32 relative">
+    <section id="leistungen" className="py-20 lg:py-32 relative bg-transparent overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div {...fadeIn} className="text-center mb-20">
           <h2 className="font-serif text-4xl lg:text-6xl mb-6 font-bold">Heilverfahren mit <span className="text-nature-sage italic">Tiefe.</span></h2>
@@ -275,16 +275,13 @@ export function Services() {
 
 export function Gallery() {
   const images = [
-    { src: `${import.meta.env.BASE_URL}3.jpg`, alt: 'Kristalle & Heilung' },
-    { src: `${import.meta.env.BASE_URL}4.jpg`, alt: 'Naturmittel' },
-    { src: `${import.meta.env.BASE_URL}5.jpg`, alt: 'Zen Atmosphäre' },
-    { src: `${import.meta.env.BASE_URL}6.jpg`, alt: 'Heilkräuter' },
-    { src: `${import.meta.env.BASE_URL}7.jpg`, alt: 'Meditation' },
-    { src: `${import.meta.env.BASE_URL}8.jpg`, alt: 'Energiearbeit' },
+    { src: '/3.jpg', alt: 'Kristalle & Heilung' },
+    { src: '/4.jpg', alt: 'Naturmittel' },
+    { src: '/5.jpg', alt: 'Zen Atmosphäre' },
+    { src: '/6.jpg', alt: 'Heilkräuter' },
+    { src: '/7.jpg', alt: 'Meditation' },
+    { src: '/8.jpg', alt: 'Energiearbeit' },
   ];
-
-  // ... restliche Funktion (return etc.)
-
 
   return (
     <section id="galerie" className="py-24 mb-32 lg:py-40 relative bg-earth-stone overflow-hidden">
@@ -350,7 +347,7 @@ export function Contact() {
   };
 
   return (
-    <section id="kontakt" className="py-20 lg:py-40 relative overflow-hidden bg-warm-cream">
+    <section id="kontakt" className="py-20 lg:py-40 relative overflow-hidden bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-24 items-start">
           <motion.div {...fadeIn}>
