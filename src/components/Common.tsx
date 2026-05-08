@@ -275,7 +275,7 @@ export function Services() {
 
 export function Gallery() {
   const images = [
-    { src: '/3.jpg', alt: 'Kristalle & Heilung' },
+    { src: '/3.jpg', alt: 'Behandlungsraum & Wohlbefinden' },
     { src: '/4.jpg', alt: 'Naturmittel' },
     { src: '/5.jpg', alt: 'Zen Atmosphäre' },
     { src: '/6.jpg', alt: 'Heilkräuter' },
